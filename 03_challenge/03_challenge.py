@@ -10,6 +10,7 @@ For all integers between 1 and 99 (include both):
 """
 
 def fizzbuzz(max_num):
+    max_num = int(max_num)
     "This method implements FizzBuzz"
     # Google for 'range in python' to see what it does
     for i in range(1,max_num):
